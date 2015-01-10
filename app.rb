@@ -13,5 +13,9 @@ end
 =end
 
 get ('/') do
-  erb(:root)
+  erb(:voting_form)
+end
+
+get ('/voting_results') do
+  
 end
